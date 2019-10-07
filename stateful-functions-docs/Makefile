@@ -94,7 +94,7 @@ auto: docker-autobuild
 
 .PHONY: html
 html:
-	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" ../"$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 # Legacy build hosted in a docker container, then deployed to kubernetes
 .PHONY: dist
