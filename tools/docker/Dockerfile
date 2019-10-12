@@ -24,8 +24,8 @@ ENV STATEFUL_FUNCTIONS_MODULES $STATEFUL_FUNCTIONS_HOME/modules
 # cleanup flink-lib
 RUN rm -fr $FLINK_HOME/lib/flink-table*jar
 
-# copy our distriubtion template
-COPY flink/ $FLINK_HOME/
+# copy our distribution template
+COPY flink-distribution-template/ $FLINK_HOME/
 
 # add user modules
 USER root
