@@ -34,7 +34,7 @@ These different types of problems need different approaches with different chara
 Resource-oblivious Development and Deployment
 =============================================
 
-When writing a **Stateful Functions** application, developers do not have to worry about how many parallel instances the application will later run on, or how many resources should be provisioned for the application: this is similar to the FaaS paradigm. Compared to regular Apache Flink applications, there is no need to think in terms or parallelism, slots, or TaskManager resource profiles, to name a few.
+When writing a **Stateful Functions** application, developers do not have to worry about how many parallel instances the application will later run on, or how many resources should be provisioned for the application: this is similar to the FaaS paradigm. Compared to regular Apache Flink applications, there is no need to think in terms of parallelism, slots, or TaskManager resource profiles, to name a few.
 
 Conscious Resource Occupation
 =============================
