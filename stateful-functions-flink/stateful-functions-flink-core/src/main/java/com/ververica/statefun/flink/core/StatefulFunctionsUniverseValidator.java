@@ -32,8 +32,5 @@ final class StatefulFunctionsUniverseValidator {
     if (statefulFunctionsUniverse.functions().isEmpty()) {
       throw new IllegalStateException("There are no function providers defined.");
     }
-    if (statefulFunctionsUniverse.sinks().isEmpty()) {
-      throw new IllegalStateException("There are no sink providers defined.");
-    }
   }
 }
