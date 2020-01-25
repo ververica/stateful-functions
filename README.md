@@ -1,3 +1,20 @@
+# Repository Has Moved
+
+Stateful Functions is now part of the [Apache Flink](https://flink.apache.org) project,
+and has been moved to be maintained by the Apache Flink community.
+
+This repository will not be maintained anymore.
+
+Please move to the following GitHub repository:
+
+`git clone https://github.com/apache/flink-statefun.git`
+
+If you have an existing clone of this repository, you can update your remote to point to the new repository:
+
+`git remote set-url origin https://github.com/apache/flink-statefun.git`
+
+---
+
 <img alt="Stateful Functions" src="stateful-functions-docs/images/stateful_functions_logo.png" width=400px/>
 
 Stateful Functions is a library for distributed applications and services, based on, well, you guessed it: stateful functions.
