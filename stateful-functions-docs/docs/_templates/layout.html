@@ -4,6 +4,16 @@
 {%- set logo = 'logo.png' %}
 {%- set theme_logo_only = True %}
 
+{% block extrahead %}
+<script>
+// Redirect to new Statefun docs URL until we migrate off of Netlify completely
+(function () {
+  const newUrl = "https://flink.apache.org/stateful-functions.html";
+  window.location.replace(newUrl)
+})();
+</script>
+{% endblock %}
+
 {% block sidebartitle %}
 
 	{{ super() }}
